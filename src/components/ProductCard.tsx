@@ -31,7 +31,7 @@ const ProductCard = ({
       </div>
 
       <div className="p-5">
-        <h3 className="font-semibold text-lg text-green-900 mb-2">{title}</h3>
+        <h3 className="">{title}</h3>
         <p className="text-green-600 text-sm mb-4 line-clamp-2">
           {description}
         </p>
