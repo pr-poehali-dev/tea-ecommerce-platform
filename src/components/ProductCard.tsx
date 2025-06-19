@@ -21,7 +21,7 @@ const ProductCard = ({
         <img
           src={image}
           alt={title}
-          className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+          className="w-full h-48 group-hover:scale-110 transition-transform duration-500 object-contain"
         />
         <div className="absolute top-3 left-3">
           <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full font-medium">
