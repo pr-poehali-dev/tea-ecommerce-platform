@@ -10,9 +10,7 @@ const Header = () => {
             <div className="w-8 h-8 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center">
               <Icon name="Leaf" size={18} className="text-white" />
             </div>
-            <span className="text-xl font-semibold text-green-900">
-              Натура Вита
-            </span>
+            <span className="text-xl font-semibold text-green-900">ProSex</span>
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">

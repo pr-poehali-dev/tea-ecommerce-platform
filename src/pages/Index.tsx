@@ -11,11 +11,12 @@ const Index = () => {
       <section className="container mx-auto px-4 py-20">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold text-green-900 mb-6">
-            Натуральная <span className="text-green-600">Гармония</span>
+            <span className="text-green-600">ProSex</span>
           </h1>
           <p className="text-xl text-green-700 mb-8 leading-relaxed">
-            Откройте для себя мир натуральных продуктов для интимного велнеса.
-            Травяные чаи, органическая косметика и всё для гармоничной жизни.
+            Откройте для себя мир натуральных продуктов для интимного велнеса и
+            гармоничных отношений. Премиальные товары и образовательные
+            материалы для полноценной жизни.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
