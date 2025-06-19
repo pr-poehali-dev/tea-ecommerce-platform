@@ -21,7 +21,7 @@ const ProductCard = ({
         <img
           src={image}
           alt={title}
-          className="w-full h-48 group-hover:scale-110 transition-transform duration-500 object-contain"
+          className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
         />
         <div className="absolute top-3 left-3">
           <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full font-medium">
@@ -31,7 +31,9 @@ const ProductCard = ({
       </div>
 
       <div className="p-5">
-        <h3 className="font-semibold text-lg text-green-900 mb-2">{title}</h3>
+        <h3 className="font-semibold text-lg text-green-900 mb-2 text-center">
+          {title}
+        </h3>
         <p className="text-green-600 text-sm mb-4 line-clamp-2">
           {description}
         </p>
